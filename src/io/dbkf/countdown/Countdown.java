@@ -31,7 +31,6 @@ public class Countdown extends Application {
 		root.setStyle("-fx-background: #000000;");
 
 		Scene scene = new Scene(root, 300, 250);
-		stage.setFullScreen(true);
 		stage.setScene(scene);
 		stage.show();
 
